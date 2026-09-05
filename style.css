@@ -5,13 +5,13 @@
 @media print{body{padding:0;color:#222}.wrapper{display:block}.profile{position:static;padding:0 0 20px;margin-bottom:20px;border-bottom:1px solid #ddd}nav,.skip-link,footer{display:none}.publication,.experience-item{break-inside:avoid}h2{text-decoration:none}a{color:inherit}}
 
 /* Supplied portrait and original paper figures. */
-.avatar{display:block;width:156px;height:156px;object-fit:cover;border-radius:50%;margin:0 auto 25px}
-.publication{display:grid;grid-template-columns:185px minmax(0,1fr);gap:22px;align-items:center;margin-bottom:30px}
-.paper-figure{display:block;line-height:0;border-radius:4px;overflow:hidden;background:#fff;cursor:zoom-in}
-.paper-figure img{display:block;width:100%;height:auto;max-height:170px;object-fit:contain}
+.avatar{display:block;width:128px;height:128px;object-fit:cover;border-radius:50%;margin:0 auto 1em}
+.publication{display:grid;grid-template-columns:25% minmax(0,75%);gap:0;align-items:center;margin-bottom:30px}
+.paper-figure{display:block;line-height:0;border-radius:4px;overflow:hidden;background:#fff;cursor:zoom-in;margin:0 15px}
+.paper-figure img{display:block;width:100%;height:auto;object-fit:contain}
 .paper-figure:hover{outline:1px solid #c6d5df;outline-offset:4px}
-.paper-content{min-width:0}
-@media(min-width:721px) and (max-width:960px){.publication{grid-template-columns:145px minmax(0,1fr);gap:18px}.avatar{width:140px;height:140px}}
-@media(max-width:720px){.avatar{width:140px;height:140px;margin-bottom:20px}.publication{grid-template-columns:175px minmax(0,1fr);gap:20px}}
-@media(max-width:540px){.publication{grid-template-columns:1fr;gap:14px}.paper-figure{width:min(100%,320px);justify-self:center}.paper-figure img{max-height:210px}}
-@media print{.avatar{width:100px;height:100px}.publication{grid-template-columns:150px minmax(0,1fr);gap:18px}}
+.paper-content{min-width:0;padding:0 0 0 20px}
+@media(min-width:721px) and (max-width:960px){.publication{grid-template-columns:25% minmax(0,75%)}.avatar{width:128px;height:128px}}
+@media(max-width:720px){.avatar{width:128px;height:128px;margin-bottom:20px}.publication{grid-template-columns:25% minmax(0,75%)}}
+@media(max-width:480px){.publication{grid-template-columns:1fr;gap:14px}.paper-figure{width:min(100%,320px);justify-self:center}.paper-content{padding-left:0}}
+@media print{.avatar{width:100px;height:100px}.publication{grid-template-columns:25% minmax(0,75%)}}
