@@ -1,0 +1,27 @@
+main:
+  - title: "Auto-JEPA: A Latent World Model of Continuous Intent for End-to-End Autonomous Driving"
+    authors: <strong>Jiwei Yang</strong>
+    conference_short: AAAI
+    conference: Under review at AAAI 2027.
+    arxiv: https://arxiv.org/abs/2607.29031
+    pdf: https://arxiv.org/pdf/2607.29031
+    code: https://github.com/NoctYang/Auto-JEPA
+    image: ./assets/auto-jepa.png
+    selected: true
+  - title: "SDRA: Spatiotemporally Decoupled VLM-Enhanced Reinforcement Learning for Energy-Efficient Heavy-Vehicle Driving"
+    authors: <strong>Jiwei Yang</strong>
+    conference_short: AAAI
+    conference: Under review at AAAI 2027.
+    image: ./assets/sdra.png
+    selected: true
+  - title: "OP-RTDETR: Real-Time Outdoor Parking Space Detection with Grouped Convolutions and Group-Level Contrastive Denoising"
+    authors: <strong>Jiwei Yang</strong>
+    conference_short: SCI Q2
+    conference: Major revision.
+    image: ./assets/op-rtdetr.png
+    selected: true
+  - title: "CHyFN: A Consistency-Aware Hybrid Feature Network for Robust Object Recognition in Complex Scenes"
+    authors: <strong>Jiwei Yang</strong>
+    conference: First-author research project.
+    image: ./assets/chyfn.png
+    selected: true
