@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ site.title }} | {{ site.chinese_name }}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  <link rel="icon" href="{{ site.favicon }}" type="image/svg+xml">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  {% if site.font == "Sans Serif" %}
+  <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
+  {% else %}
+  <link rel="stylesheet" href="./assets/css/font.css">
+  {% endif %}
+  <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
+  <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
+</head>
+<body>
+<div class="wrapper">
+<header>
+{% if site.avatar %}<a class="image avatar"><img src="{{ site.avatar }}" alt="avatar"></a>{% endif %}
+<h1><b>{{ site.title }}</b></h1>
+{% if site.position %}<position style="font-size:1.10rem;">{{ site.position }}</position><br>{% endif %}
+{% if site.affiliation %}<a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a><br>{% endif %}
+{% if site.email %}<email>{{ site.email }}</email>{% endif %}
+<br><br>
+<div class="social-icons">
+{% if site.cv_link %}<a href="{{ site.cv_link }}"><i class="ai ai-cv" style="font-size:1.3rem;"></i></a>{% endif %}
+{% if site.github_link %}<a href="{{ site.github_link }}"><i class="fab fa-github"></i></a>{% endif %}
+</div>
+<br>
+</header>
+<section>
+{{ content }}
+<br>
+{% if site.enable_footnote %}<p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>{% endif %}
+</section>
+<footer></footer>
+</div>
+<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+</body>
+</html>
