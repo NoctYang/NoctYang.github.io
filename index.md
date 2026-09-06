@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a research assistant in **Prof. Jun Li's research group at Tsinghua University**, working on action-oriented world models and autonomous driving planning.
+I am a research assistant in **Prof. Jun Li's research group at Tsinghua University**, working on latent-space world models (e.g., JEPA) and autonomous driving planning.
 
 I received my bachelor's degree in Software Engineering from Guangzhou Institute of Science and Technology in June 2026. Previously, I was a jointly trained student at the School of Vehicle and Mobility, Tsinghua University, and an embodied intelligence algorithm engineer at the **Center for Brain Inspired Computing Research (CBICR), Tsinghua University**.
 
