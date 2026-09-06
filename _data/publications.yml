@@ -13,11 +13,9 @@ main:
     selected: true
   - title: "OP-RTDETR: Real-Time Outdoor Parking Space Detection with Grouped Convolutions and Group-Level Contrastive Denoising"
     authors: <strong>Jiwei Yang</strong>, Huilin Chen, Weihua Pan, Ting Liu, Si Li, Yujie Liu, Yingrun Li
-    conference: SCI Q2 journal.
     image: ./assets/op-rtdetr.png
     selected: true
   - title: "CHyFN: A Consistency-Aware Hybrid Feature Network for Robust Object Recognition in Complex Scenes"
     authors: Shuo Ye, <strong>Jiwei Yang</strong>, Zitong Yu, Dan Guo, Shutao Xia, Richang Hong, Meng Wang, Fellow, IEEE
-    conference: Research project.
     image: ./assets/chyfn.png
     selected: true
