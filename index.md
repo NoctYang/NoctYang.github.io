@@ -30,6 +30,11 @@ I explore these questions through **world models, embodied intelligence, and aut
 
 {% include publications.md %}
 
+## Selected Projects
+
+- **Auto-JEPA**: Continuous future driving-intent latent world model for end-to-end autonomous driving. [Code](https://github.com/NoctYang/Auto-JEPA)
+- **SDRA**: VLM-enhanced reinforcement learning for energy-efficient heavy-vehicle driving.
+
 {% include experience.md %}
 
 ## Honors & Awards
