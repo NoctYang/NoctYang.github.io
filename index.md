@@ -36,10 +36,11 @@ I explore these questions through **world models, embodied intelligence, and aut
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="./assets/auto-jepa.png" class="teaser img-fluid z-depth-1" alt="Auto-JEPA project preview">
+    <img src="./assets/auto-jepa-architecture.png" class="teaser img-fluid z-depth-1" alt="Auto-JEPA training and inference architecture">
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://github.com/NoctYang/Auto-JEPA">Auto-JEPA</a></div>
+    <div class="description">A latent-space world model for learning continuous driving intent from visual observations, ego-motion history, and navigation commands.</div>
     <div class="links">
       <a href="https://github.com/NoctYang/Auto-JEPA" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
     </div>
