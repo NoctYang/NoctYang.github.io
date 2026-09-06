@@ -631,7 +631,7 @@ footer {
 
 .experience-grid { display: grid; gap: 14px; margin-top: 10px; }
 .experience-card { display: flex; align-items: center; gap: 16px; padding: 10px 0; }
-.experience-card img { width: 120px; height: 78px; object-fit: contain; flex: 0 0 120px; }
+.experience-card img { width: 110px; height: 90px; object-fit: contain; flex: 0 0 110px; }
 .experience-card h3 { margin: 0 0 5px; font-size: 1rem; color: #043361; }
 .experience-card p { margin: 0; font-size: 0.88rem; line-height: 1.45; }
 @media screen and (max-width: 480px) { .experience-card { align-items: flex-start; } .experience-card img { width: 90px; flex-basis: 90px; } }
