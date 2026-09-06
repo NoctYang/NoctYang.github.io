@@ -6,7 +6,7 @@ layout: homepage
 
 I am a research assistant in **Prof. Jun Li's research group at Tsinghua University**, working on action-oriented world models and autonomous driving planning.
 
-I received my bachelor's degree in Software Engineering from Guangzhou Institute of Science and Technology in June 2026. Previously, I was a jointly trained student at the School of Vehicle and Mobility, Tsinghua University, a visiting student at **YU Vision Group, Great Bay University**, and an embodied intelligence algorithm engineer at the **Center for Brain Inspired Computing Research (CBICR), Tsinghua University**.
+I received my bachelor's degree in Software Engineering from Guangzhou Institute of Science and Technology in June 2026. Previously, I was a jointly trained student at the School of Vehicle and Mobility, Tsinghua University, and an embodied intelligence algorithm engineer at the **Center for Brain Inspired Computing Research (CBICR), Tsinghua University**.
 
 ## Research Interests
 
@@ -25,7 +25,6 @@ I explore these questions through **world models, embodied intelligence, and aut
 ## Education
 
 - **Jointly Trained Student**, School of Vehicle and Mobility, Tsinghua University, Nov. 2025 - Jun. 2026. Prof. Jun Li's Research Group.
-- **Visiting Student**, School of Information Science and Technology, Great Bay University, Jun. 2025 - Aug. 2025. YU Vision Group.
 - **B.S. in Software Engineering**, Guangzhou Institute of Science and Technology, Sep. 2022 - Jun. 2026. School of Artificial Intelligence.
 
 {% include publications.md %}
