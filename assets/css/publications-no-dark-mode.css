@@ -101,13 +101,3 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .author-legend { font-size: 0.75rem; color: #828282; margin: 5px 0 -10px; }
 
-/* Experience logos: preserve the full square mark inside the reference thumbnail frame */
-#academic-experience + .publications ol.bibliography li .teaser {
-  width: 200px;
-  height: 123px;
-  object-fit: contain;
-  background: #fff;
-}
-#academic-experience + .publications ol.bibliography li .abbr {
-  height: 8rem;
-}
