@@ -620,3 +620,11 @@ footer {
   line-height: 1.4;
   margin-bottom: 0;
 }
+
+/* Enlarged reference-style profile column */
+@media print, screen and (min-width: 961px) {
+  header { width: 270px; }
+  section { width: 610px; }
+  header h1 { font-size: 32px; }
+  .image.avatar img { width: 58%; padding: 12px; }
+}
