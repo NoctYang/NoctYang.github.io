@@ -19,7 +19,7 @@ I explore these questions through **world models, embodied intelligence, and aut
 
 ## News
 
-- **[Jun. 2026]** I joined the **[Prof. Jun Li's research group, Tsinghua University](https://www.tsinghua.edu.cn/info/1166/93890.htm)** as a research assistant.
+- **[Jun. 2026]** I joined the [Prof. Jun Li's research group, Tsinghua University](https://www.tsinghua.edu.cn/info/1166/93890.htm) as a research assistant.
 - **[Jun. 2026]** I completed my bachelor's degree in Software Engineering.
 
 ## Education
