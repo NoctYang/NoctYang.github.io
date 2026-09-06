@@ -8,11 +8,7 @@
   <link rel="icon" href="{{ site.favicon }}" type="image/svg+xml">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  {% if site.font == "Sans Serif" %}
-  <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
-  {% else %}
-  <link rel="stylesheet" href="./assets/css/font.css">
-  {% endif %}
+  {% if site.font == "Sans Serif" %}<link rel="stylesheet" href="./assets/css/font_sans_serif.css">{% else %}<link rel="stylesheet" href="./assets/css/font.css">{% endif %}
   <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
   <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
   <style>h2 { text-decoration: underline; text-decoration-style: solid; text-decoration-color: #fba524; text-decoration-thickness: 2px; text-underline-offset: 5px; }</style>
@@ -35,8 +31,6 @@
 </header>
 <section>
 {{ content }}
-<br>
-{% if site.enable_footnote %}<p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>{% endif %}
 </section>
 <footer></footer>
 </div>
