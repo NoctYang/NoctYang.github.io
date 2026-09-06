@@ -12,9 +12,9 @@
     <img src="./assets/tsinghua.svg" class="teaser img-fluid z-depth-1" alt="Tsinghua University">
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a></div>
+    <div class="title"><strong>Prof. Jun Li's research group, </strong><a href="https://www.tsinghua.edu.cn/en/"><strong>Tsinghua University</strong></a></div>
     <div class="time">Research Assistant: Jun. 2026 - Present.</div>
-    <div class="description">Topics: Action-oriented world models and autonomous driving planning.<br>Research Advisor: Prof. Jun Li.</div>
+    <div class="description">Topics: latent world models and autonomous driving.</div>
   </div>
 </div>
 </li>
