@@ -98,3 +98,5 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 /* Reference-sized publication controls */
 .publications ol.bibliography li .links a.btn { font-size: 0.72rem; padding: 0.08rem 0.32rem; margin-right: 0.18rem; border-radius: 2px; }
 .publications ol.bibliography li .periodical { margin-top: 0.12rem; font-size: 0.82rem; }
+
+.author-legend { font-size: 0.75rem; color: #828282; margin: 5px 0 -10px; }
