@@ -1,6 +1,6 @@
 ## Publications
 
-<p class="author-legend"><sup>*</sup> equal contribution&emsp;<sup>†</sup> project lead&emsp;<sup>‡</sup> corresponding author</p>
+<p style="font-size:12px; color:#828282; margin: 5px 0px -10px;">* equal contribution&emsp;† project lead&emsp;‡ corresponding author</p>
 
 <div class="publication-filter">
 <input class="publication-filter-input" type="radio" id="pub-filter-selected" name="pub-filter" checked>
