@@ -24,7 +24,7 @@ I explore these questions through **world models, embodied intelligence, and aut
 
 ## Education
 
-- **Jointly Trained Student**, School of Vehicle and Mobility, Tsinghua University, Nov. 2025 - Jun. 2026. Prof. Jun Li's Research Group.
+- **Jointly Trained Student**, School of Vehicle and Mobility, Tsinghua University, Nov. 2025 - Jun. 2026.
 - **B.S. in Software Engineering**, Guangzhou Institute of Science and Technology, Sep. 2022 - Jun. 2026. School of Artificial Intelligence.
 
 {% include publications.md %}
