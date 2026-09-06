@@ -12,9 +12,9 @@
     <img src="./assets/tsinghua.svg" class="teaser img-fluid z-depth-1" alt="Tsinghua University">
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title">Research Assistant</div>
-    <div class="time">Jun. 2026 – Present</div>
-    <div class="description"><strong>Tsinghua University · Prof. Jun Li's Research Group</strong><br>Action-oriented world models and autonomous driving planning.</div>
+    <div class="title"><a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a></div>
+    <div class="time">Research Assistant: Jun. 2026 - Present.</div>
+    <div class="description">Topics: Action-oriented world models and autonomous driving planning.<br>Research Advisor: Prof. Jun Li.</div>
   </div>
 </div>
 </li>
@@ -26,9 +26,9 @@
     <img src="./assets/tsinghua.svg" class="teaser img-fluid z-depth-1" alt="Tsinghua University">
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title">Embodied Intelligence Algorithm Engineer</div>
-    <div class="time">Aug. 2025 – Oct. 2025</div>
-    <div class="description"><strong>Center for Brain Inspired Computing Research (CBICR), Tsinghua University</strong><br>Multimodal perception, language understanding, and action planning.</div>
+    <div class="title"><a href="https://www.cbicr.tsinghua.edu.cn/">Center for Brain Inspired Computing Research (CBICR), Tsinghua University</a></div>
+    <div class="time">Embodied Intelligence Algorithm Engineer: Aug. 2025 - Oct. 2025.</div>
+    <div class="description">Topics: Multimodal perception, language understanding, and action planning.</div>
   </div>
 </div>
 </li>
