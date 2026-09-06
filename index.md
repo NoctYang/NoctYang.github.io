@@ -29,10 +29,25 @@ I explore these questions through **world models, embodied intelligence, and aut
 
 {% include publications.md %}
 
-## Selected Projects
+<h2 id="projects" style="margin: 2px 0px -15px;">Selected Projects</h2>
 
-- **Auto-JEPA**: Continuous future driving-intent latent world model for end-to-end autonomous driving. [Code](https://github.com/NoctYang/Auto-JEPA)
-- **SDRA**: VLM-enhanced reinforcement learning for energy-efficient heavy-vehicle driving.
+<div class="publications">
+<ol class="bibliography">
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="./assets/auto-jepa.png" class="teaser img-fluid z-depth-1" alt="Auto-JEPA project preview">
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://github.com/NoctYang/Auto-JEPA">Auto-JEPA</a></div>
+    <div class="links">
+      <a href="https://github.com/NoctYang/Auto-JEPA" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+    </div>
+  </div>
+</div>
+</li>
+</ol>
+</div>
 
 {% include experience.md %}
 
