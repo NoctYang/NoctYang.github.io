@@ -1,27 +1,25 @@
 main:
   - title: "Auto-JEPA: A Latent World Model of Continuous Intent for End-to-End Autonomous Driving"
-    authors: <strong>Jiwei Yang</strong>
-    conference_short: AAAI
-    conference: Under review at AAAI 2027.
+    authors: <strong>Jiwei Yang</strong>, Zhengxian Chen, Chaoshen Huang, Jun Li
+    conference_short: ArXiv
+    conference: AAAI 2027 submission.
     arxiv: https://arxiv.org/abs/2607.29031
     pdf: https://arxiv.org/pdf/2607.29031
     code: https://github.com/NoctYang/Auto-JEPA
     image: ./assets/auto-jepa.png
     selected: true
   - title: "SDRA: Spatiotemporally Decoupled VLM-Enhanced Reinforcement Learning for Energy-Efficient Heavy-Vehicle Driving"
-    authors: <strong>Jiwei Yang</strong>
-    conference_short: AAAI
-    conference: Under review at AAAI 2027.
+    authors: <strong>Jiwei Yang</strong>*, Zhengxian Chen*†, Pengyi Xiao, Weihua Pan, Chenggang Zhang, Lei Yang, Wenfeng Guo, Chaoshen Huang, Jun Li
+    conference: AAAI 2027 submission.
     image: ./assets/sdra.png
     selected: true
   - title: "OP-RTDETR: Real-Time Outdoor Parking Space Detection with Grouped Convolutions and Group-Level Contrastive Denoising"
-    authors: <strong>Jiwei Yang</strong>
-    conference_short: SCI Q2
-    conference: Major revision.
+    authors: <strong>Jiwei Yang</strong>, Huilin Chen, Weihua Pan, Ting Liu, Si Li, Yujie Liu, Yingrun Li
+    conference: SCI Q2 journal.
     image: ./assets/op-rtdetr.png
     selected: true
   - title: "CHyFN: A Consistency-Aware Hybrid Feature Network for Robust Object Recognition in Complex Scenes"
-    authors: <strong>Jiwei Yang</strong>
-    conference: First-author research project.
+    authors: Shuo Ye, <strong>Jiwei Yang</strong>, Zit​​ong Yu, Dan Guo, Shutao Xia, Richang Hong, Meng Wang, Fellow, IEEE
+    conference: Research project.
     image: ./assets/chyfn.png
     selected: true
