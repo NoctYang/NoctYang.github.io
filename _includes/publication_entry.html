@@ -8,7 +8,7 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="{{ title_link }}">{{ link.title }}</a></div>
     <div class="author">{{ link.authors }}</div>
-    <div class="periodical"><em>{{ link.conference }}</em></div>
+    {% if link.conference %}<div class="periodical"><em>{{ link.conference }}</em></div>{% endif %}
     <div class="links">
       {% if link.arxiv %}<a href="{{ link.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>{% endif %}
       {% if link.pdf %}<a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>{% endif %}
