@@ -12,8 +12,9 @@
     <img src="./assets/tsinghua.svg" class="teaser img-fluid z-depth-1" alt="Tsinghua University">
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://www.tsinghua.edu.cn/info/1166/93890.htm" style="color:#3498db !important;"><strong style="color:#3498db !important;">Prof. Jun Li's research group, Tsinghua University</strong></a></div>
+    <div class="title"><a href="https://www.svm.tsinghua.edu.cn/" style="color:#3498db !important;"><strong style="color:#3498db !important;">School of Vehicle and Mobility, Tsinghua University</strong></a></div>
     <div class="time">Research Assistant: Jun. 2026 - Present.</div>
+    <div class="description">Advisor: <a href="https://www.tsinghua.edu.cn/info/1166/93890.htm">Prof. Jun Li</a>.</div>
     <div class="description">Topics: latent world models and autonomous driving.</div>
   </div>
 </div>
