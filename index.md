@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a research assistant in the **[Prof. Jun Li's research group, Tsinghua University](https://www.tsinghua.edu.cn/info/1166/93890.htm)**, working on latent-space world models (e.g., JEPA).
+I am a research assistant at the **[School of Vehicle and Mobility, Tsinghua University](https://www.svm.tsinghua.edu.cn/)**, advised by **[Prof. Jun Li](https://www.tsinghua.edu.cn/info/1166/93890.htm)**, working on world models.
 
 I received my bachelor's degree in Software Engineering from Guangzhou Institute of Science and Technology in June 2026 and completed my joint training at the **[School of Vehicle and Mobility, Tsinghua University](https://www.svm.tsinghua.edu.cn/)**. Previously, I worked as an embodied intelligence algorithm engineer at the **Center for Brain Inspired Computing Research (CBICR), Tsinghua University**.
 
