@@ -19,6 +19,7 @@ I explore these questions through **world models, embodied intelligence, and aut
 
 ## News
 
+- **[Aug. 2026]** I released **[Auto-JEPA](https://github.com/NoctYang/Auto-JEPA)**.
 - **[Jun. 2026]** I joined the **[School of Vehicle and Mobility, Tsinghua University](https://www.svm.tsinghua.edu.cn/)** as a research assistant, advised by **[Prof. Jun Li](https://www.tsinghua.edu.cn/info/1166/93890.htm)**.
 - **[Aug. 2025]** I joined the **[Center for Brain Inspired Computing Research (CBICR), Tsinghua University](https://www.cbicr.tsinghua.edu.cn/)** as an embodied intelligence algorithm engineer.
 
