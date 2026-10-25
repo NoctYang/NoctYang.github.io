@@ -1,7 +1,7 @@
 main:
   - title: "Auto-JEPA: A Latent World Model of Continuous Intent for End-to-End Autonomous Driving"
     authors: <strong>Jiwei Yang</strong>, Zhengxian Chen†, Chaoshen Huang, Jun Li
-    note: 'Cited by <a href="https://scholar.google.com.hk/citations?hl=zh-CN&amp;user=WLN3QrAAAAAJ">Yann LeCun</a>.'
+    note: '🌟 Cited by <a href="https://scholar.google.com.hk/citations?hl=zh-CN&amp;user=WLN3QrAAAAAJ">Yann LeCun</a>.'
     conference_short: ArXiv
     arxiv: https://arxiv.org/abs/2607.29031
     pdf: https://arxiv.org/pdf/2607.29031

@@ -77,7 +77,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li .author > em { border-bottom: 1px solid; font-style: normal; }
 
-.publications ol.bibliography li .publication-note { color: #c62828; font-weight: 700; }
+.publications ol.bibliography li .publication-note { color: #d4a000; font-weight: 700; }
 .publications ol.bibliography li .publication-note a { color: inherit; font-weight: inherit; text-decoration: underline; }
 
 .publications ol.bibliography li .links a.btn { color: #000000; border: 1px solid #000000; padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.1rem; padding-bottom: 0.1rem; }
