@@ -1,22 +1,20 @@
 {% assign link = include.link %}
-{% assign title_link = link.arxiv | default: link.page | default: link.pdf | default: "#" %}
+{% assign title_link = link.arxiv | default: link.page | default: link.pdf %}
 <li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %}<img src="{{ link.image }}" class="teaser img-fluid z-depth-1" alt="{{ link.title }} teaser">{% endif %}
-    {% if link.conference_short %}<abbr class="badge"><a href="{{ link.arxiv }}" target="_blank">{{ link.conference_short }}</a></abbr>{% endif %}
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="{{ title_link }}">{{ link.title }}</a></div>
-    <div class="author">{{ link.authors }}</div>
-    {% if link.note %}<div class="publication-note">{{ link.note }}</div>{% endif %}
-    {% if link.conference %}<div class="periodical"><em>{{ link.conference }}</em></div>{% endif %}
-    <div class="links">
-      {% if link.arxiv %}<a href="{{ link.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>{% endif %}
-      {% if link.pdf %}<a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>{% endif %}
-      {% if link.code %}<a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>{% endif %}
-    </div>
-  </div>
+<div class="pub-row{% unless link.image %} pub-row-text-only{% endunless %}">
+{% if link.image %}<div class="pub-media">
+<img src="{{ link.image }}" alt="{{ link.title | escape }} teaser" loading="lazy">
+</div>{% endif %}
+<div class="pub-content">
+<div class="title">{% if title_link %}<a href="{{ title_link }}">{{ link.title }}</a>{% else %}{{ link.title }}{% endif %}</div>
+<div class="author">{{ link.authors }}</div>
+{% if link.note %}<div class="publication-note">{{ link.note }}</div>{% endif %}
+{% if link.conference or link.conference_short %}<div class="periodical">{{ link.conference | default: link.conference_short }}</div>{% endif %}
+{% if link.arxiv or link.pdf or link.code %}<div class="links">
+{% if link.arxiv %}<a href="{{ link.arxiv }}" target="_blank" rel="noopener">arXiv</a>{% endif %}
+{% if link.pdf %}<a href="{{ link.pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+{% if link.code %}<a href="{{ link.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+</div>{% endif %}
+</div>
 </div>
 </li>
-<br>

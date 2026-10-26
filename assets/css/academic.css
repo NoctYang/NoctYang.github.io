@@ -1,0 +1,61 @@
+:root {
+  color-scheme: light;
+  --text-color: #444;
+  --secondary-color: #666;
+  --paper-accent: #ffcc99;
+}
+* { box-sizing: border-box; }
+html { background: #fff; }
+body {
+  margin: 0;
+  background: #fff;
+  color: var(--text-color);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-text-size-adjust: 100%;
+}
+.wrapper { width: min(960px, calc(100% - 48px)); margin: 0 auto; padding: 20px 0 56px; }
+a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+a:hover { color: #111; }
+a:focus-visible { outline: 2px solid #666; outline-offset: 4px; }
+img { max-width: 100%; height: auto; }
+strong, b { font-weight: 700; }
+.skip-link { position: absolute; left: 16px; top: -80px; padding: 8px 12px; background: #fff; z-index: 10; }
+.skip-link:focus { top: 8px; }
+.site-header { display: grid; grid-template-columns: 320px minmax(0, 1fr); align-items: center; gap: 8px; margin-bottom: 30px; }
+.profile-photo { text-align: center; }
+.profile-photo img { display: block; width: 256px; height: 256px; margin: 0 auto; object-fit: contain; border-radius: 0; }
+.profile-details { min-width: 0; }
+.profile-details h1 { margin: 0 0 16px; color: var(--text-color); font-size: 24px; line-height: 1.3; font-weight: 700; }
+.profile-details h1 span { white-space: nowrap; }
+.profile-details p { margin: 0 0 12px; overflow-wrap: anywhere; }
+.profile-details p a { text-decoration: none; }
+.profile-details p a:hover { text-decoration: underline; }
+.profile-links { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 18px; }
+main { min-width: 0; }
+main h2 { margin: 34px 0 14px; font-size: 20px; line-height: 1.35; font-weight: 700; color: var(--text-color); }
+main h3 { margin: 22px 0 12px; font-size: 17px; line-height: 1.4; }
+main p { margin: 0 0 18px; }
+main ul, main ol { padding-left: 25px; margin: 0 0 18px; }
+main li { margin: 7px 0; }
+main > p, main > ul { overflow-wrap: anywhere; }
+@media (max-width: 700px) {
+  .site-header { grid-template-columns: 220px minmax(0, 1fr); gap: 20px; }
+  .profile-photo img { width: 200px; height: 200px; }
+}
+@media (max-width: 520px) {
+  .wrapper { width: calc(100% - 32px); padding-top: 24px; }
+  .site-header { grid-template-columns: minmax(0, 1fr); gap: 20px; margin-bottom: 30px; }
+  .profile-photo img { width: 200px; height: 200px; }
+  .profile-details { text-align: center; }
+  .profile-details h1 { font-size: 24px; }
+  .profile-links { justify-content: center; }
+  main h2 { margin-top: 30px; }
+}
+@media print {
+  .wrapper { width: 100%; padding: 0; }
+  .skip-link { display: none; }
+  a { text-decoration: none; }
+  .site-header { break-inside: avoid; }
+}

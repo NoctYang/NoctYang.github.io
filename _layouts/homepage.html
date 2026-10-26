@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>{{ site.title }} | {{ site.chinese_name }}</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ site.description }}">
-  <link rel="icon" href="{{ site.favicon }}" type="image/svg+xml">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  {% if site.font == "Sans Serif" %}<link rel="stylesheet" href="./assets/css/font_sans_serif.css">{% else %}<link rel="stylesheet" href="./assets/css/font.css">{% endif %}
-  <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
-  <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css?v={{ site.time | date: '%s' }}">
-  <style>h2 { text-decoration: underline; text-decoration-style: solid; text-decoration-color: #fba524; text-decoration-thickness: 2px; text-underline-offset: 5px; }</style>
+  <meta name="color-scheme" content="light">
+  <title>{{ site.title | escape }} | {{ site.chinese_name | escape }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  <link rel="stylesheet" href="{{ '/assets/css/publications-no-dark-mode.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 </head>
 <body>
-<div class="wrapper">
-<header>
-{% if site.avatar %}<a class="image avatar"><img src="{{ site.avatar }}" alt="avatar"></a>{% endif %}
-<h1><b>{{ site.title }}</b></h1>
-{% if site.position %}<position style="font-size:1.10rem;">{{ site.position }}</position><br>{% endif %}
-{% if site.affiliation %}<a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a><br>{% endif %}
-{% if site.email %}<email>{{ site.email }}</email>{% endif %}
-<br><br>
-<div class="social-icons">
-{% if site.cv_link %}<a href="{{ site.cv_link }}"><i class="ai ai-cv" style="font-size:1.3rem;"></i></a>{% endif %}
-{% if site.github_link %}<a href="{{ site.github_link }}"><i class="fab fa-github"></i></a>{% endif %}
-{% if site.google_scholar %}<a href="{{ site.google_scholar }}" target="_blank" rel="noopener"><i class="ai ai-google-scholar" style="font-size:1.2rem"></i></a>{% endif %}
-</div>
-<br>
-</header>
-<section>
-{{ content }}
-</section>
-<footer></footer>
-</div>
-<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="wrapper">
+    <header class="site-header">
+      {% if site.avatar %}
+      <div class="profile-photo">
+        <img src="{{ site.avatar | relative_url }}" alt="{{ site.title | escape }}" width="256" height="256">
+      </div>
+      {% endif %}
+      <div class="profile-details">
+        <h1>{{ site.title | escape }}{% if site.chinese_name %} <span lang="zh-CN">{{ site.chinese_name | escape }}</span>{% endif %}</h1>
+        {% if site.position %}<p>{{ site.position | escape }}</p>{% endif %}
+        {% if site.affiliation %}<p><a href="{{ site.affiliation_link }}">{{ site.affiliation | escape }}</a></p>{% endif %}
+        {% if site.email %}<p><a href="mailto:{{ site.email }}">{{ site.email | escape }}</a></p>{% endif %}
+        <nav class="profile-links" aria-label="Profile links">
+          {% if site.cv_link %}<a href="{{ site.cv_link | relative_url }}">CV</a>{% endif %}
+          {% if site.github_link %}<a href="{{ site.github_link }}">GitHub</a>{% endif %}
+          {% if site.google_scholar %}<a href="{{ site.google_scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>{% endif %}
+        </nav>
+      </div>
+    </header>
+    <main id="main-content">
+      {{ content }}
+    </main>
+  </div>
 </body>
 </html>

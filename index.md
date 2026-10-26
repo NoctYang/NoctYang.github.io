@@ -2,8 +2,6 @@
 layout: homepage
 ---
 
-## About Me
-
 I am a research assistant at the **[School of Vehicle and Mobility, Tsinghua University](https://www.svm.tsinghua.edu.cn/)**, advised by **[Prof. Jun Li](https://www.tsinghua.edu.cn/info/1166/93890.htm)**, working on world models.
 
 I received my bachelor's degree in Software Engineering from Guangzhou Institute of Science and Technology in June 2026 and completed my joint training at the **[School of Vehicle and Mobility, Tsinghua University](https://www.svm.tsinghua.edu.cn/)**. Previously, I worked as an embodied intelligence algorithm engineer at the **Center for Brain Inspired Computing Research (CBICR), Tsinghua University**.
@@ -30,20 +28,20 @@ I explore these questions through **world models, embodied intelligence, and aut
 
 {% include publications.md %}
 
-<h2 id="projects" style="margin: 2px 0px -15px;">Selected Projects</h2>
+<h2 id="projects">Selected Projects</h2>
 
 <div class="publications">
 <ol class="bibliography">
 <li>
 <div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="./assets/auto-jepa-architecture.png" class="teaser img-fluid z-depth-1" alt="Auto-JEPA training and inference architecture">
+  <div class="pub-media">
+    <img src="./assets/auto-jepa-architecture.png" alt="Auto-JEPA training and inference architecture" loading="lazy">
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+  <div class="pub-content">
     <div class="title"><a href="https://github.com/NoctYang/Auto-JEPA">Auto-JEPA 🔥</a></div>
     <div class="description">A latent-space world model for learning continuous driving intent from visual observations, ego-motion history, and navigation commands.</div>
     <div class="links">
-      <a href="https://github.com/NoctYang/Auto-JEPA" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <a href="https://github.com/NoctYang/Auto-JEPA" target="_blank" rel="noopener noreferrer">Code</a>
     </div>
   </div>
 </div>

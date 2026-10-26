@@ -1,15 +1,16 @@
 ## Publications
 
-<p style="font-size:12px; color:#828282; margin: 5px 0px -10px;">* equal contribution&emsp;† project lead&emsp;‡ corresponding author</p>
+<p class="author-legend">* equal contribution&emsp;† project lead&emsp;‡ corresponding author</p>
 
-<div class="publication-filter">
-<input class="publication-filter-input" type="radio" id="pub-filter-selected" name="pub-filter" checked>
+<fieldset class="publication-filter">
+<legend class="publication-filter-legend">Show publications</legend>
+<input class="publication-filter-input" type="radio" id="pub-filter-selected" name="pub-filter" value="selected" aria-controls="publication-list-selected" checked>
 <label class="publication-filter-label" for="pub-filter-selected">Selected</label>
-<span class="publication-filter-separator">|</span>
-<input class="publication-filter-input" type="radio" id="pub-filter-all" name="pub-filter">
+<span class="publication-filter-separator" aria-hidden="true">/</span>
+<input class="publication-filter-input" type="radio" id="pub-filter-all" name="pub-filter" value="all" aria-controls="publication-list-all">
 <label class="publication-filter-label" for="pub-filter-all">All</label>
 
-<div class="publications publication-list publication-list-selected">
+<div class="publications publication-list publication-list-selected" id="publication-list-selected">
 <ol class="bibliography">
 {% for link in site.data.publications.main %}
 {% if link.selected %}
@@ -19,11 +20,11 @@
 </ol>
 </div>
 
-<div class="publications publication-list publication-list-all">
+<div class="publications publication-list publication-list-all" id="publication-list-all">
 <ol class="bibliography">
 {% for link in site.data.publications.main %}
 {% include publication_entry.html link=link %}
 {% endfor %}
 </ol>
 </div>
-</div>
+</fieldset>
