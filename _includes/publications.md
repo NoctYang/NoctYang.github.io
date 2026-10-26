@@ -1,6 +1,6 @@
 ## Publications
 
-<p class="author-legend">* equal contribution&emsp;† project lead&emsp;‡ corresponding author</p>
+<p class="author-legend">* equal contribution&emsp;† corresponding author&emsp;‡ corresponding author</p>
 
 <fieldset class="publication-filter">
 <legend class="publication-filter-legend">Show publications</legend>
