@@ -8,12 +8,7 @@ I received my bachelor's degree in Software Engineering from Guangzhou Institute
 
 ## Research Interests
 
-My research focuses on learning and reasoning about the real world with world models. I am particularly interested in:
-
-- **Real-world dynamics and interactions**: Understanding how the world evolves and how agents interact, beyond predicting the next observation.
-- **Task-relevant latent representations**: Learning features that matter for downstream goals while reducing the modeling of irrelevant changes.
-
-I explore these questions through **world models, embodied intelligence, and autonomous driving**.
+My research focuses on learning and reasoning about the real world with world models, particularly real-world dynamics and interactions: understanding how the world evolves and how agents interact, beyond predicting the next observation.
 
 ## News
 
